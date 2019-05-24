@@ -8,6 +8,6 @@ find_package(range-v3 REQUIRED)
 #target_link_libraries(rangetest ::range-v3)
 include_directories(/usr/local/include)
 
-add_executable(fp_in_cpp main.cpp)
+#add_executable(fp_in_cpp main.cpp)
 
 add_subdirectory(src)

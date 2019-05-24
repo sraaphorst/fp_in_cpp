@@ -4,6 +4,11 @@
  * By Sebastian Raaphorst, 2019.
  */
 
+/**
+ * A very non-functional implementation of reading files.
+ */
+
+#include <iostream>
 #include <fstream>
 #include <utility>
 #include <vector>
@@ -29,4 +34,13 @@ count_lines_in_files(const std::vector<std::string> &files) {
     // The compiler automatically optimizes this so we don't need a move.
     // return std::move(results);
     return results;
+}
+
+int main() {
+    const std::vector<std::string> files{"listing1_1.cpp",
+                                         "listing1_2.cpp",
+                                         "listing1_4.cpp",
+                                         "listing1_5.cpp"};
+    const auto result = count_lines_in_files(files);
+    std::copy(std::cbegin(result), std::cend(result), std::ostream_iterator<int>(std::cout, ","));
 }

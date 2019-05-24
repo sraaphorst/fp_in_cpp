@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="fp_in_cpp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\range-v3\;CMake Files\src\;CMake Files\src\ch01\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/vorpal/Development/C++/fp_in_cpp/debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/vorpal/Development/C++/fp_in_cpp/debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/vorpal/Development/C++/fp_in_cpp/debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="listing1_5">
+				<Option output="/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/listing1_5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 listing1_5"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="listing1_5/fast">
+				<Option output="/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/listing1_5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 listing1_5/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="listing1_4">
+				<Option output="/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/listing1_4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 listing1_4"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="listing1_4/fast">
+				<Option output="/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/listing1_4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 listing1_4/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="listing1_2">
+				<Option output="/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/listing1_2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 listing1_2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="listing1_2/fast">
+				<Option output="/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/listing1_2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 listing1_2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="listing1_1">
+				<Option output="/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/listing1_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 listing1_1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="listing1_1/fast">
+				<Option output="/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/listing1_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 listing1_1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/vorpal/Development/C++/fp_in_cpp/debug/src/ch01/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/vorpal/Development/C++/fp_in_cpp/src/ch01/listing1_1.cpp">
+			<Option target="listing1_1"/>
+		</Unit>
+		<Unit filename="/Users/vorpal/Development/C++/fp_in_cpp/src/ch01/listing1_2.cpp">
+			<Option target="listing1_2"/>
+		</Unit>
+		<Unit filename="/Users/vorpal/Development/C++/fp_in_cpp/src/ch01/listing1_4.cpp">
+			<Option target="listing1_4"/>
+		</Unit>
+		<Unit filename="/Users/vorpal/Development/C++/fp_in_cpp/src/ch01/listing1_5.cpp">
+			<Option target="listing1_5"/>
+		</Unit>
+		<Unit filename="/Users/vorpal/Development/C++/fp_in_cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/vorpal/Development/C++/fp_in_cpp/../../../../../usr/local/lib/cmake/range-v3/range-v3-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\range-v3\"/>
+		</Unit>
+		<Unit filename="/Users/vorpal/Development/C++/fp_in_cpp/../../../../../usr/local/lib/cmake/range-v3/range-v3-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\range-v3\"/>
+		</Unit>
+		<Unit filename="/Users/vorpal/Development/C++/fp_in_cpp/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/vorpal/Development/C++/fp_in_cpp/src/ch01/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\ch01\"/>
+		</Unit>
+		<Unit filename="/Users/vorpal/Development/C++/fp_in_cpp/src/ch01/listing1_1.cpp">
+			<Option virtualFolder="CMake Files\src\ch01\"/>
+		</Unit>
+		<Unit filename="/Users/vorpal/Development/C++/fp_in_cpp/src/ch01/listing1_2.cpp">
+			<Option virtualFolder="CMake Files\src\ch01\"/>
+		</Unit>
+		<Unit filename="/Users/vorpal/Development/C++/fp_in_cpp/src/ch01/listing1_4.cpp">
+			<Option virtualFolder="CMake Files\src\ch01\"/>
+		</Unit>
+		<Unit filename="/Users/vorpal/Development/C++/fp_in_cpp/src/ch01/listing1_5.cpp">
+			<Option virtualFolder="CMake Files\src\ch01\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
