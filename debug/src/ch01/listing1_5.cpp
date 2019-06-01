@@ -20,6 +20,7 @@ auto open_file(const std::string &filename) {
     return std::ifstream{filename};
 }
 
+// Note that this function MUST accept an rvalue!
 auto count_lines(std::ifstream &&in) {
     return std::count(std::istreambuf_iterator<char>{in},
                       std::istreambuf_iterator<char>{}, '\n');
