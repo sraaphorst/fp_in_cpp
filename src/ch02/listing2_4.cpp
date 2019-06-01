@@ -6,10 +6,8 @@
 
 #include <iostream>
 #include <algorithm>
-#include <fstream>
 #include <iterator>
 #include <numeric>
-#include <vector>
 
 // FOLDING algorithm to count the number of newspace characters in a block of text.
 int num_newlines(const std::string &text) {
