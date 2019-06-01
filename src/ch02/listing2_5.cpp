@@ -4,23 +4,12 @@
  * By Sebastian Raaphorst, 2019.
  */
 
+#include <algorithm>
 #include <iostream>
+#include <iterator>
 #include <vector>
 
-#include <algorithm>
-#include <iterator>
-
-enum Gender { MALE, FEMALE };
-
-// We need to be able to swap elements, so these cannot be const.
-struct Person {
-    std::string name;
-    Gender sex;
-};
-
-bool is_woman(const Person &p) {
-    return p.sex == FEMALE;
-}
+#include "person.h"
 
 int main() {
     // Since we are changing the vector, this cannot be const.

@@ -4,8 +4,8 @@
  * By Sebastian Raaphorst, 2019.
  */
 
-#include <iostream>
 #include <algorithm>
+#include <iostream>
 #include <iterator>
 #include <numeric>
 
