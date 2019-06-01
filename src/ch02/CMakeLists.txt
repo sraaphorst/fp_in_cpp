@@ -4,3 +4,4 @@ add_executable(listing2_3 listing2_3.cpp)
 add_executable(listing2_4 listing2_4.cpp)
 
 add_executable(right_fold right_fold.cpp)
+add_executable(string_trim string_trim.cpp)
