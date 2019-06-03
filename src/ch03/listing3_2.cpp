@@ -3,7 +3,7 @@
  *
  * By Sebastian Raaphorst, 2019.
  *
- * Reaklly 3.2 ro 3.4.
+ * Really 3.2 to 3.4.
  */
 
 #include <algorithm>
@@ -30,7 +30,7 @@ int Company::count_team_members(const std::string &team_name) const {
     });
 }
 
-// *** LAMBBDA IMPLEMENTATION ***
+// *** LAMBDA IMPLEMENTATION ***
 // As well as creating class, evaluating lambda creates an instance of that class called a closurem whith constains
 // state or environment along with code that should be executed on that sate.
 class lambda_implementation {
@@ -43,7 +43,7 @@ public:
             : m_this(comp), m_team_name(team_name) {}
 
     // NOTE: *** CONST BY DEFAULT ***
-    // IF YOU WANT TO CHANGE VALUE OF CAPTURED VARIABLES< MUST USE MUTABLE KEYWORDD,
+    // IF YOU WANT TO CHANGE VALUE OF CAPTURED VARIABLES, MUST USE MUTABLE KEYWORDD,
     bool operator()(const Person &employee) const {
         return m_this->team_name_for(employee) == m_team_name;
     }

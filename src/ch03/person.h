@@ -7,8 +7,9 @@
 #include <ostream>
 
 struct Person {
-    const std::string name;
-    const int age;
+    // We need to be able to swap, so we can't mark these as const.
+    std::string name;
+    int age;
 };
 
 std::ostream &operator<<(std::ostream &out, const Person &p) {
