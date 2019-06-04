@@ -18,8 +18,7 @@ int main() {
 
     std::for_each(std::cbegin(words), std::cend(words),
             [count](const std::string &word) mutable {
-                if (!isupper(word[0])) {
-                    std::cout << word << ' ' << count++ << '\n';
-                }
-    });
+                if (!isupper(word[0])) count++;
+                std::cout << word << ' ' << count << '\n';
+            });
 }

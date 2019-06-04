@@ -24,6 +24,19 @@ struct Pet {
     int age;
 };
 
+std::ostream &operator<<(std::ostream &out, const Pet &pet) {
+    out << pet.name;
+    switch (pet.type) {
+        case ANIMAL::CAT:
+            out << " the cat";
+            break;
+        case ANIMAL::DOG:
+            out << "the dog";
+            break;
+    }
+    return out;
+}
+
 
 int main() {
     std::vector<Person> people{
@@ -32,24 +45,34 @@ int main() {
             {"Kitty Litter",        1}
     };
 
-    struct vector<Pet> animals{
+    std::vector<Pet> animals{
             {"Max", ANIMAL::CAT, 12},
             {"Duncan", ANIMAL::CAT, 10},
             {"Felix", ANIMAL::CAT, 6},
             {"Kali", ANIMAL::CAT, 1},
-            {"Oliver", ANIMAL::CAT, 0}
+            {"Oliver", ANIMAL::CAT, 0},
             {"Sonic", ANIMAL::DOG, 12}
     };
 
     // A lambda that creates a lambda that takes auto parameters so it can be used on anything with age
     // instead of relying on templates.
     auto age_filter = [](const int lower, const int upper) {
-        return [](const auto &a) {
+        return [lower, upper](const auto &a) {
             return a.age >= lower && a.age <= upper;
-        }
+        };
     };
 
     // Cannot be const. We don't need second half any more of transform because we overloaded << for ostream, People.
     std::cout << ranges::view::all(people | view::filter(age_filter(20, 45))) << '\n';
-    std::cout << ranges::view::all(animals | view::filter(age_filter(5, 11))) << '\n';
+    std::cout << ranges::view::all(animals | view::filter(age_filter(3, 11))) << '\n';
+
+    // Can even mix and match types. Here using auto, we mix Person and Pet.
+    [](const auto &a, const auto &b) {
+        if (a.age > b.age)
+            std::cout << a.name << " is older than " << b.name << '\n';
+        else if (a.age < b.age)
+            std::cout << a.name << " if younger than " << b.name << '\n';
+        else
+            std::cout << a.name << " and " << b.name << " are the same age\n";
+    }(people[0], animals[2]);
 }
